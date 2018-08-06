@@ -1,0 +1,111 @@
+body {
+  background-image: url("https://images.pexels.com/photos/714644/pexels-photo-714644.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.box {
+  border: solid 2px black;
+  border-radius: 0%;
+  box-shadow: 0 0 30px #333;
+  width: 40%;
+  margin: auto;
+  margin-top: 7em;
+  margin-right: 7em;
+  padding: 5px;
+  text-align: center;
+  float: right;
+}
+#quoteId {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.3em;
+  padding: 30px;
+}
+#tweet-button {
+  font-size: 2em;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  transition: all 0.2s ease-in-out;
+}
+#tweet-button:hover {
+  transform: scale(1.5);
+  color: rgb(0, 132, 255);
+}
+
+#quote-button {
+  font-size: 2em;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  transition: all 0.2s ease-in-out;
+}
+
+#quote-button:hover {
+  transform: scale(1.5);
+}
+
+@media only screen and (max-width: 768px) {
+  .box {
+  border: solid 1px black;
+  border-radius: 0%;
+  box-shadow: 0 0 30px #333;
+  width: 40%;
+  margin: auto;
+  margin-top: 5em;
+  margin-right: 3em;
+  padding: 1px;
+  text-align: center;
+  float: right;
+}
+#quoteId {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.0em;
+  padding: 20px;
+}
+#tweet-button {
+  font-size: 1.5em;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  transition: all 0.2s ease-in-out;
+}
+
+  #quote-button {
+  font-size: 1.5em;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  transition: all 0.2s ease-in-out;
+}
+}
+
+@media only screen and (max-width: 600px) {
+  .box {
+  border: solid 1px black;
+  border-radius: 0%;
+  box-shadow: 0 0 30px #333;
+  width: 40%;
+  margin: auto;
+  margin-top: 2em;
+  margin-right: 2em;
+  padding: 1px;
+  text-align: center;
+  float: right;
+}
+#quoteId {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.8em;
+  padding: 20px;
+}
+#tweet-button {
+  font-size: 1.5em;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  transition: all 0.2s ease-in-out;
+}
+
+  #quote-button {
+  font-size: 1.5em;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  transition: all 0.2s ease-in-out;
+}
+}
